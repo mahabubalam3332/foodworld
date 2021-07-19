@@ -13,7 +13,8 @@
     padding-bottom: 23px;
 }
 
-section#main_header {
+section#bannar_area{
+    background-image: url("../images/memphis-geometric-background-with-abstract-shapes_23-2148934083.jpg");
     flex-wrap: wrap;
 }
 
@@ -48,4 +49,36 @@ span {
 .header_left a {
     text-decoration: none;
     color: #fff;
+}
+/* bannar_part */
+#about_me {
+    background-image: url("../images/2BTYW3E.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.content_1 img {
+    height: 436px;
+    width: 275px;
+}
+.content_2 {
+    font-family: sans-serif;
+    opacity: 42%;
+    color: #000;
+}
+.content_2 h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+.content_2 p {
+    font-size: 18px;
+    padding-bottom: 25px;
+    line-height: 1.5;
 }
