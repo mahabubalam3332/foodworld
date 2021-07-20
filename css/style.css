@@ -56,12 +56,13 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 30px 0;
 }
 .content_inner {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+    
 }
 .content_1 img {
     height: 436px;
@@ -69,16 +70,70 @@ span {
 }
 .content_2 {
     font-family: sans-serif;
-    opacity: 42%;
     color: #000;
 }
 .content_2 h1 {
     font-size: 50px;
     padding-bottom: 20px;
     font-weight: 900;
+    opacity: 70%;
 }
 .content_2 p {
     font-size: 18px;
     padding-bottom: 25px;
     line-height: 1.5;
+    opacity: 42%;
+}
+.content_2 button {
+    padding: 18px 32px;
+    background: tomato;
+    border-radius: 50px;
+    border: none;
+}
+.content_2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+/* food_menu */
+section#food_menu {
+    padding: 50px 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+.food_menu_title h1 {
+    font-size: 35px;
+    opacity: 50%;
+    padding-bottom: 20px;
+}
+.food_menu_title p {
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 50%;
+}
+.food_menu_inner {
+    display: flex;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 20px 40px 30px 40px white;
+}
+.food_menu_inner img {
+    width: 296px;
+    height: 254px;
+    text-align: left;
+}
+.food_item {
+    box-shadow: 5px 5px 20px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    text-align: left;
+}
+.food_item h2 {
+    padding: 20px 0;
+}
+.food_item p {
+    font-size: 17px;
+    padding: 10px 0;
+    opacity: 50%;
 }
