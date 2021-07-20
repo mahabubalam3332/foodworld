@@ -137,3 +137,28 @@ section#food_menu {
     padding: 10px 0;
     opacity: 50%;
 }
+/* counter_area */
+section#counter_area {
+    padding: 6px 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container-inner {
+    width: 1040px;
+}
+.counter_inner {
+    display: flex;
+    box-shadow: 5px 5px 20px #999999;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+}
+.count_area h2 {
+    font-size: 35px;
+    padding: 22px;
+}
+.count_area p {
+    font-size: 20px;
+    opacity: 50%;
+}
