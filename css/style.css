@@ -143,16 +143,14 @@ section#counter_area {
     text-align: center;
     font-family: sans-serif;
 }
-.container-inner {
-    width: 1040px;
-}
 .counter_inner {
     display: flex;
     box-shadow: 5px 5px 20px #999999;
-    border-radius: 10px;
+    border-radius: 23px;
     justify-content: center;
     align-items: center;
-    height: 175px;
+    height: 161px;
+    width: 1040px;
 }
 .count_area h2 {
     font-size: 35px;
@@ -161,4 +159,38 @@ section#counter_area {
 .count_area p {
     font-size: 20px;
     opacity: 50%;
+}
+/* contact_area */
+section#contact_area {
+    padding: 62px 0;
+    font-family: sans-serif;
+}
+.contact_title h1 {
+    font-size: 37px;
+    text-align: center;
+    color: #7F7D7C;
+    padding:20px 0;
+}
+input[type="text"], [type="email"], textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+input[type="submit"] {
+    background: #FC8F49;
+    color: #fff;
+    padding: 18px 54px;
+    font-size: 20px;
+    text-align: center;
+}
+input[type="submit"] {
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
